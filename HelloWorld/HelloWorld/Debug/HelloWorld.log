@@ -1,0 +1,1729 @@
+﻿Build started 9/18/2014 6:59:17 PM.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+ANDROID_NDK_PATH = C:\Users\pyrot_000\Documents\Android\ndk\android-ndk-r8d
+APPDATA = C:\Users\pyrot_000\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = BOREALFENRIR-PC
+ComSpec = C:\WINDOWS\system32\cmd.exe
+FP_NO_HOST_CHECK = NO
+GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+HOMEDRIVE = C:
+HOMEPATH = \Users\pyrot_000
+JAVA_HOME = C:\Program Files\Java\jdk1.7.0_45
+LOCALAPPDATA = C:\Users\pyrot_000\AppData\Local
+LOGONSERVER = \\MicrosoftAccount
+M2 = C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1\bin
+M2_HOME = C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1
+MSBuildLoadMicrosoftTargetsReadOnly = true
+NUMBER_OF_PROCESSORS = 8
+OS = Windows_NT
+PATH = C:\Python33\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PkgDefApplicationConfigFile = C:\Users\pyrot_000\AppData\Local\Microsoft\VisualStudio\11.0\devenv.exe.config
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 2a07
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+SCE_PSM_DATA = C:\Users\Public\Documents\PSM
+SCE_PSM_SDK = C:\Program Files (x86)\SCE\PSM
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\WINDOWS
+TEMP = C:\Users\PYROT_~1\AppData\Local\Temp
+TMP = C:\Users\PYROT_~1\AppData\Local\Temp
+USERDOMAIN = BOREALFENRIR-PC
+USERDOMAIN_ROAMINGPROFILE = BOREALFENRIR-PC
+USERNAME = pyrot_000
+USERPROFILE = C:\Users\pyrot_000
+VisualStudioDir = C:\Users\pyrot_000\Documents\Visual Studio 2012
+VisualStudioEdition = Microsoft Visual Studio Professional 2012
+VisualStudioVersion = 11.0
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+VSLANG = 1033
+windir = C:\WINDOWS
+XNAGSShared = C:\Program Files (x86)\Common Files\Microsoft Shared\XNA\
+XNAGSv4 = C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\
+
+18:59:17.486     1>Project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" on node 2 (Build target(s)).
+18:59:17.486     1>Initial Properties:
+                   _AfterCompileWinFXInternalDependsOn = 
+                           PrepareResourcesForSatelliteAssemblies;
+                           MergeLocalizationDirectives;
+                           AfterCompileWinFX
+                       
+                   _ApplicableDebuggers = Desktop
+                   _BuildActionType = Build
+                   _BuildSuffix = 
+                   :VCEnd
+                   _CompileTargetNameForLocalType = _CompileTemporaryAssembly
+                   _DebugSymbolsProduced = true
+                   _DeploymentApplicationManifestIdentity = HelloWorld.exe
+                   _DeploymentBuiltUpdateInterval = 0
+                   _DeploymentBuiltUpdateIntervalUnits = Days
+                   _DeploymentDeployManifestIdentity = HelloWorld.application
+                   _DeploymentFileMappingExtension = 
+                   _DeploymentPublishableProjectDefault = true
+                   _DeploymentTargetApplicationManifestFileName = HelloWorld.exe.manifest
+                   _DeploymentUrl = 
+                   _DocumentationFileProduced = false
+                   _FullFrameworkReferenceAssemblyPaths = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _GetChildProjectCopyToOutputDirectoryItems = true
+                   _ManifestDependsOn = 
+                         ;
+                         
+                         ;
+                         ComputeManifestInputsTargets;
+                       ;
+                         Manifest;
+                         ComputeManifestGeneratedLinkerInputs;
+                         LinkEmbedManifest;
+                       
+                   _OriginalConfiguration = Debug
+                   _OriginalPlatform = Win32
+                   _PlatformToolsetFriendlyNameFor_v100 = Visual Studio 2010 (v100)
+                   _PlatformToolsetFriendlyNameFor_v110 = Visual Studio 2012 (v110)
+                   _PlatformToolsetFriendlyNameFor_v110_xp = Visual Studio 2012 - Windows XP (v110_xp)
+                   _PlatformToolsetFriendlyNameFor_v90 = Visual Studio 2008 (v90)
+                   _PlatformToolsetShortNameFor_v100 = Visual Studio 2010
+                   _PlatformToolsetShortNameFor_v90 = Visual Studio 2008
+                   _ProjectDefaultTargets = Build
+                   _PropertySheetDisplayName = Application
+                   _RequireMCPass2ForMainAssembly = false
+                   _RequireMCPass2ForSatelliteAssemblyOnly = false
+                   _ResolveReferenceDependencies = false
+                   _ResourceCompileDependsOn = 
+                         
+                         ;
+                         BeforeResourceCompile;
+                       ;
+                         ;
+                         MakeDirsForResourceCompile;
+                         ResourceCompile;
+                         
+                         ;
+                         AfterResourceCompile;
+                       
+                       
+                   _ResourceNameInMainAssembly = HelloWorld.g.resources
+                   _SGenDllCreated = false
+                   _SGenDllName = HelloWorld.XmlSerializers.dll
+                   _SGenGenerateSerializationAssembliesConfig = Off
+                   _TargetFrameworkDirectories = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   _UpgradePlatformToolsetFor_v100 = v110
+                   _UpgradePlatformToolsetFor_v110 = v110
+                   _UpgradePlatformToolsetFor_v90 = v110
+                   AddAdditionalExplicitAssemblyReferences = true
+                   AddAppConfigToBuildOutputs = true
+                   AdditionalExplicitAssemblyReferences = System.Core;
+                   AfterBuildCompileTargets = 
+                         ;
+                         AfterBuildCompileEvent;
+                       
+                   AfterBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         AfterBuildGenerateSources;
+                       ;
+                         AfterBuildGenerateSourcesEvent;
+                       
+                   AfterBuildLinkTargets = 
+                         ;RunMergeNativeCodeAnalysis;RunNativeCodeAnalysis;
+                         CreateSatelliteAssemblies;
+                         _Appverifier;
+                         _Deploy;
+                         PrepareForRun;
+                         PostBuildEvent;
+                       
+                   AfterClCompileTargets = 
+                         ;
+                         AfterClCompile;
+                       
+                   AfterImpLibTargets = 
+                         ;
+                         AfterImpLib;
+                       
+                   AfterLibTargets = 
+                         ;
+                         AfterLib;
+                       
+                   AfterLinkTargets = 
+                         ;
+                         AfterLink;
+                       
+                   AfterManifestTargets = 
+                         ;
+                         AfterManifest;
+                       
+                   AfterMidlTargets = 
+                         ;
+                         AfterMidl;
+                       
+                   AfterResourceCompileTargets = 
+                         ;
+                         AfterResourceCompile;
+                       
+                   AllowedReferenceAssemblyFileExtensions = 
+                         .winmd;
+                         .dll;
+                         .exe
+                       
+                   AllowedReferenceRelatedFileExtensions = 
+                         .pdb;
+                         .xml;
+                         .pri
+                       
+                   AllowLocalNetworkLoopback = true
+                   AllProjectOutputGroupsDependsOn = 
+                         ;
+                         BuiltProjectOutputGroup;
+                         DebugSymbolsProjectOutputGroup;
+                         DocumentationProjectOutputGroup;
+                         SatelliteDllsProjectOutputGroup;
+                         SourceFilesProjectOutputGroup;
+                         ContentFilesProjectOutputGroup;
+                         SGenFilesOutputGroup
+                       
+                   ALLUSERSPROFILE = C:\ProgramData
+                   AlwaysCompileMarkupFilesInSeparateDomain = true
+                   ANDROID_NDK_PATH = C:\Users\pyrot_000\Documents\Android\ndk\android-ndk-r8d
+                   APPDATA = C:\Users\pyrot_000\AppData\Roaming
+                   AssemblyFoldersSuffix = AssemblyFoldersEx
+                   AssemblyName = HelloWorld
+                   AssemblySearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {AssemblyFolders};
+                         {GAC};
+                         {RawFileName};
+                         C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\
+                       
+                   AssignTargetPathsDependsOn = 
+                   Attach = false
+                   AutoUnifyAssemblyReferences = false
+                   AvailablePlatforms = Any CPU,x86,x64
+                   BaseIntermediateOutputPath = obj\
+                   BeforeBuildCompileTargets = 
+                         ;
+                       
+                   BeforeBuildGenerateSourcesTargets = 
+                         
+                         ;
+                         BeforeBuildGenerateSources;
+                       ;
+                       
+                   BeforeClCompileTargets = 
+                         ;
+                         BeforeClCompile;
+                       
+                   BeforeImpLibTargets = 
+                         ;
+                         BeforeImpLib;
+                       
+                   BeforeLibTargets = 
+                         ;
+                         BeforeLib;
+                       
+                   BeforeLinkTargets = 
+                         ;
+                         BeforeLink;
+                       
+                   BeforeManifestTargets = 
+                         ;
+                         BeforeManifest;
+                       
+                   BeforeMidlTargets = 
+                         ;
+                         BeforeMidl;
+                       
+                   BeforeResourceCompileTargets = 
+                         ;
+                         BeforeResourceCompile;
+                       
+                   BuildCompileAction = _BuildCompileAction
+                   BuildCompileTargets = 
+                         ;
+                         _ClCompile;
+                         _ResGen;
+                         _ResourceCompile;
+                         
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       ;
+                       
+                   BuildDependsOn = 
+                         _PrepareForBuild;
+                         
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       ;
+                         AfterBuild;
+                         FinalizeBuildStatus;
+                       
+                   BuildGenerateSourcesAction = _BuildGenerateSourcesAction
+                   BuildGenerateSourcesTargets = 
+                         ;
+                         PreBuildEvent;
+                         _Xsd;
+                         _Midl;
+                       
+                   BuildingInsideVisualStudio = true
+                   BuildingProject = true
+                   BuildInParallel = true
+                   BuildLibTargets = 
+                         ;
+                         _ImpLib;
+                         _Lib;
+                       
+                   BuildLinkAction = _BuildLinkAction
+                   BuildLinkTargets = 
+                         ;
+                         ComputeLegacyManifestEmbedding;
+                         _Link;
+                         _ALink;
+                         _Manifest;
+                         RegisterOutput;
+                         _XdcMake;
+                         _BscMake;
+                       
+                   BuildProjectReferences = true
+                   BuildSteps = 
+                         ResolveReferences;
+                         PrepareForBuild;
+                         InitializeBuildStatus;
+                         BuildGenerateSources;
+                         BuildCompile;
+                         BuildLink;
+                       
+                   BuildSystem = MSBuild
+                   BuildTaskAssembly = PresentationBuildTasks, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   BuiltProjectOutputGroupDependsOn = PrepareForBuild
+                   CharacterSet = MultiByte
+                   CleanDependsOn = 
+                         
+                         _PrepareForClean;
+                         
+                         
+                         BeforeClean;
+                         UnmanagedUnregistration;
+                         CoreClean;
+                         CleanReferencedProjects;
+                         CleanPublishFolder;
+                         AfterClean
+                       ;
+                         EntityClean;
+                       ;
+                       ;
+                         CppClean
+                       
+                   CleanFile = HelloWorld.vcxproj.FileListAbsolute.txt
+                   CLRSupport = false
+                   ClYieldDuringToolExecution = true
+                   CodeAnalysisApplyLogFileXsl = false
+                   CodeAnalysisFailOnMissingRules = false
+                   CodeAnalysisForceOutput = true
+                   CodeAnalysisGenerateSuccessFile = true
+                   CodeAnalysisIgnoreGeneratedCode = true
+                   CodeAnalysisIgnoreInvalidTargets = true
+                   CodeAnalysisIgnoreMissingIndirectReferences = false
+                   CodeAnalysisInputAssembly = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe
+                   CodeAnalysisLogFile = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe.CodeAnalysisLog.xml
+                   CodeAnalysisModuleSuppressionsFile = GlobalSuppressions.cpp
+                   CodeAnalysisOutputToConsole = false
+                   CodeAnalysisOverrideRuleVisibilities = false
+                   CodeAnalysisPath = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\FxCop\
+                   CodeAnalysisQuiet = false
+                   CodeAnalysisRuleDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\FxCop\\Rules
+                   CodeAnalysisRuleSet = NativeRecommendedRules.ruleset
+                   CodeAnalysisRuleSetDirectories = ;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\\Rule Sets
+                   CodeAnalysisSaveMessagesToReport = Active
+                   CodeAnalysisSearchGlobalAssemblyCache = true
+                   CodeAnalysisStaticAnalysisDirectory = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Team Tools\Static Analysis Tools\
+                   CodeAnalysisSucceededFile = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe.lastcodeanalysissucceeded
+                   CodeAnalysisSummary = false
+                   CodeAnalysisTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\CodeAnalysis\Microsoft.CodeAnalysis.targets
+                   CodeAnalysisTimeout = 120
+                   CodeAnalysisTLogFile = Debug\CodeAnalysis.read.1.tlog
+                   CodeAnalysisTreatWarningsAsErrors = false
+                   CodeAnalysisUpdateProject = false
+                   CodeAnalysisUseTypeNameInSuppression = true
+                   CodeAnalysisVerbose = false
+                   CommonBuildOnlyTargets = 
+                         PrepareForBuild;
+                         ResolveReferences;
+                       
+                   CommonProgramFiles = C:\Program Files (x86)\Common Files
+                   CommonProgramW6432 = C:\Program Files\Common Files
+                   CompileDependsOn = 
+                           
+                         ResolveReferences;
+                         ResolveKeySource;
+                         SetWin32ManifestProperties;
+                         _GenerateCompileInputs;
+                         BeforeCompile;
+                         _TimeStampBeforeCompile;
+                         CoreCompile;
+                         _TimeStampAfterCompile;
+                         AfterCompile;
+                       ;
+                           _AfterCompileWinFXInternal
+                       
+                   CompileLicxFilesDependsOn = 
+                   CompileRdlFilesDependsOn = PrepareRdlFiles;RunRdlCompiler
+                   CompileTargetNameForTemporaryAssembly = CompileTemporaryAssembly
+                   ComputeCompileInputsTargets = 
+                         
+                         ;
+                         ComputeMIDLGeneratedCompileInputs;
+                       ;
+                         ComputeCLInputPDBName;
+                         ComputeReferenceCLInput
+                       
+                   ComputeImpLibInputsTargets = 
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeRCGeneratedImpLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedImpLibInputs;
+                       ;
+                           ComputeImpLibInputsFromProject;
+                         
+                   ComputeIntermediateSatelliteAssembliesDependsOn = 
+                         CreateManifestResourceNames
+                       
+                   ComputeLibInputsTargets = 
+                         ComputeLibAdditionalOptions;
+                         
+                         
+                           
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLibInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLibInputs;
+                       ;
+                           ComputeLibInputsFromProject;
+                         ;
+                         ComputeReferenceLibInputs;
+                       
+                       
+                   ComputeLinkInputsTargets = 
+                         
+                           
+                         
+                         
+                         
+                         ;
+                         ComputeRCGeneratedLinkInputs;
+                       ;
+                         ComputeManifestGeneratedLinkerInputs;
+                       ;
+                         ComputeCustomBuildOutput;
+                       ;
+                         ComputeCLGeneratedLinkInputs;
+                       ;
+                           ComputeLinkInputsFromProject;
+                         ;
+                         ComputeReferenceLinkInputs;
+                       
+                   ComputeManifestInputsTargets = 
+                         ;
+                         ComputeManifestInputsTargets;
+                       
+                   COMPUTERNAME = BOREALFENRIR-PC
+                   ComReferenceExecuteAsTool = false
+                   ComReferenceNoClassMembers = false
+                   ComSpec = C:\WINDOWS\system32\cmd.exe
+                   Configuration = Debug
+                   ConfigurationName = Debug
+                   ConfigurationType = Application
+                   ConsiderPlatformAsProcessorArchitecture = true
+                   ContentFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths;PrepareForBuild;AssignTargetPaths;MakeDirsForFxc
+                   ContinueOnError = false
+                   CoreBuildDependsOn = 
+                         BuildOnlySettings;
+                         PrepareForBuild;
+                         PreBuildEvent;
+                         ResolveReferences;
+                         PrepareResources;
+                         ResolveKeySource;
+                         Compile;
+                         ExportWindowsMDFile;
+                         UnmanagedUnregistration;
+                         GenerateSerializationAssemblies;
+                         CreateSatelliteAssemblies;
+                         GenerateManifests;
+                         GetTargetPath;
+                         PrepareForRun;
+                         UnmanagedRegistration;
+                         IncrementalClean;
+                         PostBuildEvent
+                       
+                   CoreCleanDependsOn = 
+                   CoreCompileDependsOn = 
+                           DesignTimeXamlMarkupCompilation;
+                           
+                             DesignTimeMarkupCompilation;
+                             
+                         
+                       
+                   CoreCppCleanDependsOn = 
+                   CoreResGenDependsOn = 
+                   CppCleanDependsOn = 
+                         BeforeCppClean;
+                         ;
+                         CoreCppClean;
+                         AfterCppClean;
+                       ;PGInstrumentedClean
+                   CppCleanLogFile = HelloWorld.Build.CppClean.log
+                   CreateCustomManifestResourceNamesDependsOn = 
+                   CreateHardLinksForCopyAdditionalFilesIfPossible = false
+                   CreateManifestResourceNamesDependsOn = 
+                   CreateSatelliteAssembliesDependsOn = 
+                         _GenerateSatelliteAssemblyInputs;
+                         ComputeIntermediateSatelliteAssemblies;
+                         GenerateSatelliteAssemblies
+                       
+                   CRTDefinitionalFile = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\VCProjectDefault\Microsoft.AppX.VCFrameworkReferences.xml
+                   CrtSDKReferenceInclude = Microsoft.VCLibs, Version=11.0
+                   CrtSDKReferenceVersion = 11.0
+                   CurrentSolutionConfigurationContents = <SolutionConfiguration>
+                   <ProjectConfiguration Project="{311904f5-a065-4724-9d4f-7d195a363df0}" AbsolutePath="C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj">Debug|Win32</ProjectConfiguration>
+                   </SolutionConfiguration>
+                   CustomAfterMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v4.0\Custom.After.Microsoft.Common.props
+                   CustomAfterMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v4.0\Custom.After.Microsoft.Common.Targets
+                   CustomBeforeMicrosoftCommonProps = C:\Program Files (x86)\MSBuild\v4.0\Custom.Before.Microsoft.Common.props
+                   CustomBeforeMicrosoftCommonTargets = C:\Program Files (x86)\MSBuild\v4.0\Custom.Before.Microsoft.Common.Targets
+                   CustomBuildAfterTargets = BscMake
+                   CustomBuildBeforeTargets = PostBuildEvent
+                   CustomBuildToolAfterTargets = PreBuildEvent
+                   CustomBuildToolBeforeTargets = Midl
+                   DebugCppRuntimeFilesPath = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\redist\Debug_NonRedist\x86
+                   DebuggerFlavor = WindowsLocalDebugger
+                   DebuggerLaunchApplication = true
+                   DebuggerRequireAuthentication = true
+                   DebuggerType = NativeOnly
+                   DebugSymbols = true
+                   DebugSymbolsProjectOutputGroupDependsOn = 
+                   DefaultLanguageSourceExtension = .cpp
+                   DefaultPlatformToolset = v110
+                   DefaultToolArchitecture = Native32Bit
+                   DelayImplib = Delayimp.lib
+                   DelaySign = 
+                   DeploymentType = Installed
+                   DesignTimeIntermediateOutputPath = Debug\InProcessTempFiles\
+                   DesignTimeResolveAssemblyReferencesDependsOn = 
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         ResolveReferences
+                       
+                   DevEnvDir = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\
+                   DocumentationProjectOutputGroupDependsOn = ResolvedXDCMake;ComputeCLCompileGeneratedXDCFiles
+                   DocumentLibraryDependencies = true
+                   EmbeddedWin32Manifest = 
+                   EmbedManifest = true
+                   EmbedManifestBy = LINK
+                   EnableManagedIncrementalBuild = false
+                   EntityDeployDependsOn = 
+                   EntityDeployIntermediateResourcePath = Debug\edmxResourcesToEmbed\
+                   ExcludePath = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib;
+                   ExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.0\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\;C:\WINDOWS\SysWow64;;C:\Python33\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32;
+                   ExpandSDKAllowedReferenceExtensions = 
+                         .winmd;
+                         .dll
+                       
+                   ExpandSDKReferencesDependsOn = 
+                         ResolveSDKReferences
+                       
+                   ExtensionsToDeleteOnClean = *.cdf;*.cache;*.obj;*.ilk;*.resources;*.tlb;*.tli;*.tlh;*.tmp;*.rsp;*.pgc;*.pgd;*.meta;*.tlog;*.manifest;*.res;*.pch;*.exp;*.idb;*.rep;*.xdc;*.pdb;*_manifest.rc;*.bsc;*.sbr;*.xml;*.metagen;*.bi;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe.manifest;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.tlb;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.pdb;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.bsc;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.ilk;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe.intermediate.manifest;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe.CodeAnalysisLog.xml;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe.lastcodeanalysissucceeded
+                   FP_NO_HOST_CHECK = NO
+                   Framework20Dir = @(_TargetFramework20DirectoryItem)
+                   Framework30Dir = @(_TargetFramework30DirectoryItem)
+                   Framework35Dir = @(_TargetFramework35DirectoryItem)
+                   Framework40Dir = @(_TargetFramework40DirectoryItem)
+                   FrameworkDir = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkDir_110 = C:\Windows\Microsoft.NET\Framework\
+                   FrameworkPathOverride = C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
+                   FrameworkRegistryBase = Software\Microsoft\.NETFramework
+                   FrameworkSdkDir = C:\Program Files (x86)\Windows Kits\8.0\
+                   FrameworkSDKRoot = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\
+                   FrameworkVersion = v4.5
+                   FullReferenceAssemblyNames = Full
+                   FxCompileAfterTargets = CustomBuild
+                   FxCompileBeforeTargets = Midl
+                   GenerateClickOnceManifests = 
+                   GeneratedFileExtension = .g.cpp
+                   GenerateManifest = true
+                   GenerateManifestsDependsOn = 
+                         SetWin32ManifestProperties;
+                         GenerateApplicationManifest;
+                         GenerateDeploymentManifest
+                       
+                   GenerateTargetFrameworkAttribute = false
+                   GetCopyToOutputDirectoryItemsDependsOn = 
+                         AssignTargetPaths;
+                         _SplitProjectReferencesByFileExistence
+                       
+                   GetFrameworkPathsDependsOn = 
+                   GetReferenceAssemblyPathsDependsOn = 
+                           ;
+                           GetWinFXPath
+                       
+                   GetTargetPathDependsOn = 
+                   GPURefDebuggerBreakOnAllThreads = GPURefBreakOncePerWarp
+                   GTK_BASEPATH = C:\Program Files (x86)\GtkSharp\2.12\
+                   HighEntropyVA = false
+                   HOMEDRIVE = C:
+                   HOMEPATH = \Users\pyrot_000
+                   HostInBrowser = false
+                   IgnoreImportLibrary = false
+                   ImplicitlyExpandDesignTimeFacadesDependsOn = 
+                         ;
+                         GetReferenceAssemblyPaths
+                       
+                   ImportByWildcardAfterMicrosoftCommonTargets = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardAfterMicrosoftNetFrameworkTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftCommonTargets = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkProps = true
+                   ImportUserLocationsByWildcardBeforeMicrosoftNetFrameworkTargets = true
+                   IncludePath = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;;
+                   IncludeVersionInInteropName = true
+                   IntDir = Debug\
+                   IntermediateOutputPath = Debug\
+                   InteropOutputPath = Interop\
+                   IsApplication = true
+                   JAVA_HOME = C:\Program Files\Java\jdk1.7.0_45
+                   LangID = 1033
+                   LangName = en-US
+                   Language = C++
+                   LastBuildState = Debug\HelloWorld.lastbuildstate
+                   LastBuildUnsuccessful = Debug\HelloWorld.unsuccessfulbuild
+                   LibraryPath = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86;;
+                   LibraryWPath = C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral
+                   LinkCompiled = true
+                   LinkIncremental = true
+                   LoadTimeSensitiveProperties = 
+                         ;
+                       
+                   LoadTimeSensitiveTargets = 
+                         ;
+                         XamlMarkupCompilePass1;
+                       
+                   LOCALAPPDATA = C:\Users\pyrot_000\AppData\Local
+                   LocalDebuggerAttach = False
+                   LocalDebuggerCommand = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe
+                   LocalDebuggerDebuggerType = Auto
+                   LocalDebuggerMergeEnvironment = true
+                   LocalDebuggerSQLDebugging = False
+                   LocalDebuggerWorkingDirectory = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\
+                   LocalGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   LocalizationDirectivesToLocFile = None
+                   LOGONSERVER = \\MicrosoftAccount
+                   M2 = C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1\bin
+                   M2_HOME = C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1
+                   ManagedAssembly = false
+                   ManagedIncrementalBuildProcessDependencyGraphAfterTarget = 
+                         ClCompile
+                       
+                   ManagedIncrementalBuildProcessDependencyGraphBeforeTarget = 
+                         ClCompile
+                       
+                   MarkupCompilePass2ForMainAssemblyDependsOn = 
+                                        GenerateTemporaryTargetAssembly;
+                                        MarkupCompilePass2;
+                                        AfterMarkupCompilePass2;
+                                        CleanupTemporaryTargetAssembly
+                          
+                   MaxTargetPath = 100
+                   MergedOutputCodeAnalysisFile = Debug\vc.nativecodeanalysis.all.xml
+                   MetagenInputTarget = Link
+                   MetaGenTargets = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\\Microsoft.MetaGen.targets
+                   MicrosoftCommonPropsHasBeenImported = true
+                   MidlYieldDuringToolExecution = true
+                   MpiDebuggerCleanupDeployment = True
+                   MpiDebuggerDebuggerType = Auto
+                   MpiDebuggerDeployCommonRuntime = True
+                   MpiDebuggerNetworkSecurityMode = AnyAddress
+                   MpiDebuggerSchedulerNode = localhost/1
+                   MpiDebuggerSchedulerTimeout = 5000
+                   MsAppxPackageTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\AppxPackage\Microsoft.AppXPackage.Targets
+                   MSBuildAllProjects = ;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.props;C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets;C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets
+                   MSBuildBinPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildExtensionsPath = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath32 = C:\Program Files (x86)\MSBuild
+                   MSBuildExtensionsPath64 = C:\Program Files\MSBuild
+                   MSBuildLoadMicrosoftTargetsReadOnly = true
+                   MSBuildNodeCount = 8
+                   MSBuildProgramFiles32 = C:\Program Files (x86)
+                   MSBuildProjectDefaultTargets = Build
+                   MSBuildProjectDirectory = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld
+                   MSBuildProjectDirectoryNoRoot = Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld
+                   MSBuildProjectExtension = .vcxproj
+                   MSBuildProjectFile = HelloWorld.vcxproj
+                   MSBuildProjectFullPath = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj
+                   MSBuildProjectName = HelloWorld
+                   MSBuildRuntimeVersion = 4.0.30319
+                   MSBuildStartupDirectory = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE
+                   MSBuildToolsPath = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   MSBuildToolsPath32 = C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                   MSBuildToolsRoot = C:\Windows\Microsoft.NET\Framework\
+                   MSBuildToolsVersion = 4.0
+                   MSBuildUserExtensionsPath = C:\Users\pyrot_000\AppData\Local\Microsoft\MSBuild
+                   MsTestToolsTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\TeamTest\Microsoft.TeamTest.targets
+                   NativeCodeAnalysisTLogFile = Debug\NativeCodeAnalysis.read.1.tlog
+                   NativeExecutablePath = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.0\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\;C:\WINDOWS\SysWow64;;C:\Python33\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32;
+                   NUMBER_OF_PROCESSORS = 8
+                   OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration = true
+                   OS = Windows_NT
+                   OSVersion = 5.1.2600.0
+                   OutDir = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\
+                   OutDirWasSpecified = false
+                   OutputPath = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\
+                   OutputType = exe
+                   OverwriteReadOnlyFiles = false
+                   PATH = C:\Python33\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32
+                   PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+                   PkgDefApplicationConfigFile = C:\Users\pyrot_000\AppData\Local\Microsoft\VisualStudio\11.0\devenv.exe.config
+                   Platform = Win32
+                   Platform_Actual = Win32
+                   PlatformArchitecture = 32
+                   PlatformName = Win32
+                   PlatformPropsFound = true
+                   PlatformShortName = x86
+                   PlatformTarget = x86
+                   PlatformTargetAsMSBuildArchitecture = x86
+                   PlatformTargetAsMSBuildArchitectureExplicitlySet = false
+                   PlatformTargetsFound = true
+                   PlatformToolset = v110
+                   PlatformToolsetVersion = 110
+                   PostBuildEventDependsOn = 
+                   PostBuildEventUseInBuild = true
+                   PreBuildEventDependsOn = 
+                   PreBuildEventUseInBuild = true
+                   Prefer32Bit = false
+                   PreLinkEventUseInBuild = true
+                   PrepareForBuildDependsOn = PlatformPrepareForBuild;GetFrameworkPaths;GetReferenceAssemblyPaths
+                   PrepareForRunDependsOn = 
+                         CopyFilesToOutputDirectory
+                       
+                   PrepareResourceNamesDependsOn = 
+                                       AssignWinFXEmbeddedResource;
+                                       
+                         AssignTargetPaths;
+                         SplitResourcesByCulture;
+                         CreateManifestResourceNames;
+                         CreateCustomManifestResourceNames
+                       
+                         
+                   PrepareResourcesDependsOn = 
+                         XamlMarkupCompilePass1;
+                         XamlMarkupCompilePass2;
+                         
+                                   MarkupCompilePass1;
+                                   AfterMarkupCompilePass1;
+                                   MarkupCompilePass2ForMainAssembly;
+                                   FileClassification;
+                                   MainResourcesGeneration;
+                                   
+                         PrepareResourceNames;
+                         ResGen;
+                         CompileLicxFiles
+                       ;CompileRdlFiles
+                          
+                       
+                   PROCESSOR_ARCHITECTURE = x86
+                   PROCESSOR_ARCHITEW6432 = AMD64
+                   PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+                   PROCESSOR_LEVEL = 6
+                   PROCESSOR_REVISION = 2a07
+                   ProcessorArchitecture = x86
+                   ProgramData = C:\ProgramData
+                   ProgramFiles = C:\Program Files (x86)
+                   ProgramW6432 = C:\Program Files
+                   ProjectDesignTimeAssemblyResolutionSearchPaths = 
+                         {CandidateAssemblyFiles};
+                         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib;
+                         {HintPathFromItem};
+                         {TargetFrameworkDirectory};
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx};
+                         {RawFileName};
+                         C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\
+                       
+                   ProjectDir = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\
+                   ProjectEvaluationFingerprint = Debug|Win32|C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\|
+                   ProjectExt = .vcxproj
+                   ProjectFileName = HelloWorld.vcxproj
+                   ProjectFlavor = Client
+                   ProjectGuid = {311904F5-A065-4724-9D4F-7D195A363DF0}
+                   ProjectName = HelloWorld
+                   ProjectPath = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj
+                   PSModulePath = C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+                   PUBLIC = C:\Users\Public
+                   PublishableProject = true
+                   PublishBuildDependsOn = 
+                               BuildOnlySettings;
+                               PrepareForBuild;
+                               ResolveReferences;
+                               PrepareResources;
+                               ResolveKeySource;
+                               PrepareResourcesForSatelliteAssemblies;
+                               GenerateSerializationAssemblies;
+                               CreateSatelliteAssemblies;
+                           
+                   PublishDependsOn = 
+                         SetGenerateManifests;
+                         Build;
+                         PublishOnly
+                       
+                   PublishDir = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\app.publish\
+                   PublishOnlyDependsOn = 
+                         SetGenerateManifests;
+                         PublishBuild;
+                         BeforePublish;
+                         GenerateManifests;
+                         CopyFilesToOutputDirectory;
+                         CleanPublishFolder;
+                         _CopyFilesToPublishFolder;
+                         _DeploymentGenerateBootstrapper;
+                         ResolveKeySource;
+                         _DeploymentSignClickOnceDeployment;
+                         AfterPublish
+                       
+                   RebuildDependsOn = 
+                         _PrepareForRebuild;
+                         
+                         BeforeRebuild;
+                         Clean;
+                         Build;
+                         AfterRebuild;
+                       ;
+                       
+                   ReferencePath = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib
+                   RemoteDebuggerAttach = False
+                   RemoteDebuggerConnection = RemoteWithAuthentication
+                   RemoteDebuggerDebuggerType = Auto
+                   RemoteDebuggerDeployDebugCppRuntime = true
+                   RemoteDebuggerServerName = BOREALFENRIR-PC
+                   RemoteDebuggerSQLDebugging = False
+                   RemoteDebuggerWorkingDirectory = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\
+                   RemoteGPUDebuggerTargetType = {F4453496-1DB8-47F8-A7D5-31EBDDC2EC96}
+                   ReportingServicesTargets = C:\Program Files (x86)\MSBuild\Microsoft\VisualStudio\v11.0\ReportingServices\Microsoft.ReportingServices.targets
+                   ResGenDependsOn = ResolveAssemblyReferences;SplitResourcesByCulture;BeforeResGen;CoreResGen;AfterResGen
+                   ResGenExecuteAsTool = false
+                   ResolveAssemblyReferencesDependsOn = _PrepareForReferenceResolution;
+                         GetFrameworkPaths;
+                         GetReferenceAssemblyPaths;
+                         PrepareForBuild;
+                         ResolveSDKReferences;
+                         ExpandSDKReferences;
+                       
+                   ResolveReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         
+                         
+                         BeforeResolveReferences;
+                         AssignProjectConfiguration;
+                         ResolveProjectReferences;
+                         ResolveNativeReferences;
+                         ResolveAssemblyReferences;
+                         ResolveComReferences;
+                         AfterResolveReferences
+                       ;
+                         ImplicitlyExpandDesignTimeFacades
+                       ;
+                         ResolveTestReferences
+                       
+                   ResolveSDKReferencesDependsOn = _PrepareForReferenceResolution;ComputeCrtSDKReference;
+                         GetInstalledSDKLocations
+                       
+                   RootNamespace = HelloWorld
+                   RunAfterInstall = true
+                   RunCodeAnalysisDependsOn = ;ClCompile;RunMergeNativeCodeAnalysis
+                   RunCodeAnalysisInputs = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe
+                   RunDependsOn = 
+                   RunMergeNativeCodeAnalysisDependsOn = ClCompile
+                   RunNativeCodeAnalysisInputs = 
+                   SatelliteDllsProjectOutputGroupDependsOn = PrepareForBuild;PrepareResourceNames
+                   SCE_PSM_DATA = C:\Users\Public\Documents\PSM
+                   SCE_PSM_SDK = C:\Program Files (x86)\SCE\PSM
+                   SDK35ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\
+                   SDK40ToolsPath = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\
+                   SDKRedistOutputGroupDependsOn = ResolveSDKReferences;ExpandSDKReferences
+                   SDKReferenceDirectoryRoot = C:\Users\pyrot_000\AppData\Local\Microsoft SDKs;C:\Program Files (x86)\Microsoft SDKs
+                   SDKReferenceRegistryRoot = Software\Microsoft\Microsoft SDKs
+                   SESSIONNAME = Console
+                   SGenFilesOutputGroupDependsOn = 
+                   SGenShouldGenerateSerializer = true
+                   SGenUseProxyTypes = true
+                   SkipCopyBuildProduct = true
+                   SkipCopyUnchangedFiles = true
+                   SolutionDir = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\
+                   SolutionExt = .sln
+                   SolutionFileName = HelloWorld.sln
+                   SolutionName = HelloWorld
+                   SolutionPath = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld.sln
+                   SourceFilesProjectOutputGroupDependsOn = PrepareForBuild;AssignTargetPaths
+                   SourcePath = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\src\mfc;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\src\mfcm;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\src\atl;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\crt\src;
+                   SQLDebugging = false
+                   SystemDrive = C:
+                   SystemRoot = C:\WINDOWS
+                   TargetCulture = *
+                   TargetDeployManifestFileName = HelloWorld.application
+                   TargetDir = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\
+                   TargetedFrameworkDir = @(_TargetedFrameworkDirectoryItem)
+                   TargetedRuntimeVersion = v4.0.30319
+                   TargetedSDKArchitecture = x86
+                   TargetedSDKConfiguration = Debug
+                   TargetExt = .exe
+                   TargetFileName = HelloWorld.exe
+                   TargetFrameworkAsMSBuildRuntime = CLR4
+                   TargetFrameworkIdentifier = .NETFramework
+                   TargetFrameworkMoniker = .NETFramework,Version=v4.0
+                   TargetFrameworkMonikerAssemblyAttributesPath = C:\Users\pyrot_000\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp
+                   TargetFrameworkMonikerDisplayName = .NET Framework 4
+                   TargetFrameworkSDKToolsDirectory = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\
+                   TargetFrameworkVersion = v4.0
+                   TargetName = HelloWorld
+                   TargetPath = C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe
+                   TargetPlatformIdentifier = Windows
+                   TargetPlatformMoniker = Windows,Version=7.0
+                   TargetPlatformRegistryBase = Software\Microsoft\Microsoft SDKs\Windows
+                   TargetPlatformSdkPath = 
+                   TargetPlatformVersion = 7.0
+                   TargetPlatformVersionOptions = 7.0;8.0
+                   TargetPlatformWinMDLocation = C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral
+                   TargetRuntime = Managed
+                   TaskKeyToken = 31bf3856ad364e35
+                   TaskVersion = 4.0.0.0
+                   TEMP = C:\Users\PYROT_~1\AppData\Local\Temp
+                   TLogLocation = Debug\
+                   TMP = C:\Users\PYROT_~1\AppData\Local\Temp
+                   ToolsetPropsFound = true
+                   ToolsetTargetsFound = true
+                   TrackFileAccess = true
+                   UnmanagedRegistrationDependsOn = 
+                   UnmanagedUnregistrationDependsOn = 
+                   UpgradeSubsetToProfile = true
+                   UseCommonOutputDirectory = false
+                   UseDebugLibraries = true
+                   UseOfATL = false
+                   UseOfMFC = false
+                   USERDOMAIN = BOREALFENRIR-PC
+                   USERDOMAIN_ROAMINGPROFILE = BOREALFENRIR-PC
+                   USERNAME = pyrot_000
+                   USERPROFILE = C:\Users\pyrot_000
+                   UserRootDir = C:\Users\pyrot_000\AppData\Local\Microsoft\MSBuild\v4.0
+                   UseSourcePath = true
+                   VCInstallDir = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\
+                   VCInstallDir_110 = C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\
+                   VCTargetsPath = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   VCTargetsPath10 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\
+                   VCTargetsPath11 = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   VCTargetsPathEffective = C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\
+                   Version = 1.0.0.0
+                   VisualStudioDir = C:\Users\pyrot_000\Documents\Visual Studio 2012
+                   VisualStudioEdition = Microsoft Visual Studio Professional 2012
+                   VisualStudioVersion = 11.0
+                   VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+                   VS110COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\
+                   VSIDEResolvedNonMSBuildProjectOutputs = <VSIDEResolvedNonMSBuildProjectOutputs />
+                   VSInstallDir = C:\Program Files (x86)\Microsoft Visual Studio 11.0\
+                   VSInstallDir_110 = C:\Program Files (x86)\Microsoft Visual Studio 11.0\
+                   VSLANG = 1033
+                   WebBrowserDebuggerDebuggerType = Auto
+                   WebReference_EnableLegacyEventingModel = false
+                   WebReference_EnableProperties = true
+                   WebReference_EnableSQLTypes = true
+                   WebServiceDebuggerDebuggerType = Auto
+                   WebServiceDebuggerSQLDebugging = False
+                   WholeProgramOptimization = false
+                   WholeProgramOptimizationAvailabilityInstrument = true
+                   WholeProgramOptimizationAvailabilityOptimize = true
+                   WholeProgramOptimizationAvailabilityTrue = true
+                   WholeProgramOptimizationAvailabilityUpdate = true
+                   windir = C:\WINDOWS
+                   WindowsAppContainer = false
+                   WindowsSDK_ExecutablePath_arm = C:\Program Files (x86)\Windows Kits\8.0\bin\arm;
+                   WindowsSDK_ExecutablePath_x64 = C:\Program Files (x86)\Windows Kits\8.0\bin\x64;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\x64
+                   WindowsSDK_ExecutablePath_x86 = C:\Program Files (x86)\Windows Kits\8.0\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools
+                   WindowsSDK_IncludePath = C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;
+                   WindowsSDK_LibraryPath_arm = C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\arm;
+                   WindowsSDK_LibraryPath_x64 = C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x64;
+                   WindowsSDK_LibraryPath_x86 = C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86;
+                   WindowsSDK_MetadataPath = C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral
+                   WindowsSDK80Path = C:\Program Files (x86)\Windows Kits\8.0\
+                   WindowsSdkDir = C:\Program Files (x86)\Windows Kits\8.0\
+                   WindowsSdkDir_80 = C:\Program Files (x86)\Windows Kits\8.0\
+                   WindowsSdkDir_80A = C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\
+                   WinMDAssembly = false
+                   WMSJSProject = WJProject
+                   WMSJSProjectDirectory = JavaScript
+                   XamlBuildTaskAssemblyName = XamlBuildTask, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+                   XamlBuildTaskLocation = C:\Windows\Microsoft.NET\Framework\v4.0.30319
+                   XamlDebuggingInformation = true
+                   XamlGenCodeFileNames = HelloWorld.vcxproj.XamlGeneratedCodeFileListAbsolute.txt
+                   XamlGenMarkupFileNames = HelloWorld.vcxproj.XamlGeneratedXamlFileListAbsolute.txt
+                   XamlPass2FlagFile = HelloWorld.vcxproj.XamlPass2Flag.txt
+                   XamlRequiresCompilationPass2 = false
+                   XamlTemporaryAssemblyName = HelloWorld
+                   XNAGSShared = C:\Program Files (x86)\Common Files\Microsoft Shared\XNA\
+                   XNAGSv4 = C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\
+                   YieldDuringToolExecution = true
+
+18:59:17.486     1>Building with tools version "4.0".
+18:59:17.487     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Task Parameter:Text=Configuration=Debug (TaskId:2)
+                     Task Parameter:Importance=Low (TaskId:2)
+                     Configuration=Debug (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Task Parameter:Text=Platform=Win32 (TaskId:3)
+                     Task Parameter:Importance=Low (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\' != '' and !HasTrailingSlash('C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+18:59:17.496     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "HelloWorld.vcxproj".: (TargetId:2)
+18:59:17.496     1>Target "_PrepareForBuild: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "Build" depends on it):
+                   Task "CreateItem" skipped, due to false condition; ('%(CustomBuild.IncludeFileToTool)'!='') was evaluated as (''!='').
+18:59:17.496     1>Done building target "_PrepareForBuild" in project "HelloWorld.vcxproj".: (TargetId:3)
+18:59:17.496     1>Target "_PrepareForReferenceResolution: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+18:59:17.497     1>Done building target "_PrepareForReferenceResolution" in project "HelloWorld.vcxproj".: (TargetId:4)
+                   Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Main.cpp'!='' and 'false'=='true' and '' != 'false').
+18:59:17.497     1>Target "BeforeResolveReferences: (TargetId:5)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveReferences" depends on it):
+18:59:17.497     1>Done building target "BeforeResolveReferences" in project "HelloWorld.vcxproj".: (TargetId:5)
+18:59:17.497     1>Target "AssignProjectConfiguration: (TargetId:6)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignProjectConfiguration" (TaskId:4)
+                     Task Parameter:CurrentProject=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj (TaskId:4)
+                     Task Parameter:CurrentProjectConfiguration=Debug (TaskId:4)
+                     Task Parameter:CurrentProjectPlatform=Win32 (TaskId:4)
+                     Task Parameter:OutputType=exe (TaskId:4)
+                     Task Parameter:ResolveConfigurationPlatformUsingMappings=False (TaskId:4)
+                     Task Parameter:SolutionConfigurationContents=<SolutionConfiguration>
+                     <ProjectConfiguration Project="{311904f5-a065-4724-9d4f-7d195a363df0}" AbsolutePath="C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj">Debug|Win32</ProjectConfiguration>
+                     </SolutionConfiguration> (TaskId:4)
+                     Task Parameter:OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (TaskId:4)
+                     Task Parameter:ShouldUnsetParentConfigurationAndPlatform=True (TaskId:4)
+                   Done executing task "AssignProjectConfiguration". (TaskId:4)
+18:59:17.498     1>Done building target "AssignProjectConfiguration" in project "HelloWorld.vcxproj".: (TargetId:6)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+18:59:17.498     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+18:59:17.499     1>Done building target "_SplitProjectReferencesByFileExistence" in project "HelloWorld.vcxproj".: (TargetId:7)
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+18:59:17.499     1>Target "ResolveProjectReferences: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '11.0' != '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '11.0' == '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+18:59:17.499     1>Done building target "ResolveProjectReferences" in project "HelloWorld.vcxproj".: (TargetId:8)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+                   Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+18:59:17.499     1>Target "GetFrameworkPaths: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+18:59:17.500     1>Done building target "GetFrameworkPaths" in project "HelloWorld.vcxproj".: (TargetId:9)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+18:59:17.500     1>Target "GetReferenceAssemblyPaths: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+18:59:17.500     1>Done building target "GetReferenceAssemblyPaths" in project "HelloWorld.vcxproj".: (TargetId:10)
+18:59:17.500     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:11)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "PrepareForBuild" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:5)
+                     Task Parameter:Name=PATH (TaskId:5)
+                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.0\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\;C:\WINDOWS\SysWow64;;C:\Python33\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32; (TaskId:5)
+                     Task Parameter:Prefix=False (TaskId:5)
+                     PATH=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin;C:\Program Files (x86)\Windows Kits\8.0\bin\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 11.0\;C:\WINDOWS\SysWow64;;C:\Python33\;C:\Program Files\Java\jdk1.7.0_45\bin;C:\Program Files (x86)\Apache Software Foundation\apache-maven-3.1.1\bin;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\Windows\System32; (TaskId:5)
+                   Done executing task "SetEnv". (TaskId:5)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:6)
+                     Task Parameter:Name=LIB (TaskId:6)
+                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86;; (TaskId:6)
+                     Task Parameter:Prefix=False (TaskId:6)
+                     LIB=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Windows Kits\8.0\lib\win8\um\x86;; (TaskId:6)
+                   Done executing task "SetEnv". (TaskId:6)
+                   Task "SetEnv" (TaskId:7)
+                     Task Parameter:Name=LIBPATH (TaskId:7)
+                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib (TaskId:7)
+                     Task Parameter:Prefix=False (TaskId:7)
+                     LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib (TaskId:7)
+                   Done executing task "SetEnv". (TaskId:7)
+                   Task "SetEnv" (TaskId:8)
+                     Task Parameter:Name=INCLUDE (TaskId:8)
+                     Task Parameter:Value=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;; (TaskId:8)
+                     Task Parameter:Prefix=False (TaskId:8)
+                     INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include;C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include;C:\Program Files (x86)\Windows Kits\8.0\Include\um;C:\Program Files (x86)\Windows Kits\8.0\Include\shared;C:\Program Files (x86)\Windows Kits\8.0\Include\winrt;; (TaskId:8)
+                   Done executing task "SetEnv". (TaskId:8)
+18:59:17.618     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "HelloWorld.vcxproj".: (TargetId:11)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+18:59:17.618     1>Target "GetResolvedWinMD: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "PrepareForBuild" depends on it):
+18:59:17.619     1>Done building target "GetResolvedWinMD" in project "HelloWorld.vcxproj".: (TargetId:12)
+18:59:17.619     1>Target "PlatformPrepareForBuild: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.Cpp.Platform.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v110' == 'v100').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' == 'v90') was evaluated as (''!='true' and 'true' != 'true' and 'v110' == 'v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ToolsetTargetsFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100') was evaluated as (''!='true' and 'true' != 'true' and 'v110' != 'v90' and 'v110' != 'v100').
+18:59:17.620     1>Done building target "PlatformPrepareForBuild" in project "HelloWorld.vcxproj".: (TargetId:13)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+18:59:17.620     1>Target "PrepareForBuild: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:9)
+                     Task Parameter:Directories=Debug\ (TaskId:9)
+                   Done executing task "MakeDir". (TaskId:9)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary') was evaluated as (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary').
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true' and 'v110'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Windows Kits\8.0\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true') was evaluated as ('' != '' and ''!='true').
+                   Task "MakeDir" (TaskId:10)
+                     Task Parameter:
+                         Directories=
+                             Debug\
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\
+                             Debug\ (TaskId:10)
+                     Creating directory "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\". (TaskId:10)
+                   Done executing task "MakeDir". (TaskId:10)
+18:59:17.641     1>Done building target "PrepareForBuild" in project "HelloWorld.vcxproj".: (TargetId:14)
+                   Target "_PrepareForReferenceResolution" skipped. Previously built successfully.
+                   Target "ComputeCrtSDKReference" skipped, due to false condition; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') was evaluated as ('Main.cpp'!='' and 'false'=='true' and '' != 'false').
+18:59:17.641     1>Target "GetInstalledSDKLocations: (TargetId:15)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+18:59:17.642     1>Done building target "GetInstalledSDKLocations" in project "HelloWorld.vcxproj".: (TargetId:15)
+18:59:17.642     1>Target "ResolveSDKReferences: (TargetId:16)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+18:59:17.642     1>Done building target "ResolveSDKReferences" in project "HelloWorld.vcxproj".: (TargetId:16)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+18:59:17.642     1>Target "ExpandSDKReferences: (TargetId:17)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+18:59:17.642     1>Done building target "ExpandSDKReferences" in project "HelloWorld.vcxproj".: (TargetId:17)
+18:59:17.642     1>Target "ResolveAssemblyReferences: (TargetId:18)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "ResolveAssemblyReference" skipped, due to false condition; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') was evaluated as (''!='' or ''!='' or '' != '').
+18:59:17.643     1>Done building target "ResolveAssemblyReferences" in project "HelloWorld.vcxproj".: (TargetId:18)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+18:59:17.643     1>Target "AfterResolveReferences: (TargetId:19)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ResolveReferences" depends on it):
+18:59:17.643     1>Done building target "AfterResolveReferences" in project "HelloWorld.vcxproj".: (TargetId:19)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+18:59:17.644     1>Target "ResolveReferences: (TargetId:20)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "Build" depends on it):
+18:59:17.644     1>Done building target "ResolveReferences" in project "HelloWorld.vcxproj".: (TargetId:20)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+18:59:17.644     1>Target "InitializeBuildStatus: (TargetId:21)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "Build" depends on it):
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:11)
+                     Task Parameter:File=Debug\HelloWorld.lastbuildstate (TaskId:11)
+                   Done executing task "ReadLinesFromFile". (TaskId:11)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:12)
+                     Task Parameter:Overwrite=True (TaskId:12)
+                     Task Parameter:File=Debug\HelloWorld.lastbuildstate (TaskId:12)
+                     Task Parameter:
+                         Lines=
+                             #v4.0:v110:false
+                             Debug|Win32|C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\| (TaskId:12)
+                   Done executing task "WriteLinesToFile". (TaskId:12)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:13)
+                     Task Parameter:AlwaysCreate=True (TaskId:13)
+                     Task Parameter:Files=Debug\HelloWorld.unsuccessfulbuild (TaskId:13)
+                     Creating "Debug\HelloWorld.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:13)
+                   Done executing task "Touch". (TaskId:13)
+18:59:17.655     1>Done building target "InitializeBuildStatus" in project "HelloWorld.vcxproj".: (TargetId:21)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+18:59:17.655     1>Target "BuildGenerateSourcesTraverse: (TargetId:22)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+18:59:17.655     1>Done building target "BuildGenerateSourcesTraverse" in project "HelloWorld.vcxproj".: (TargetId:22)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+18:59:17.655     1>Target "BeforeBuildGenerateSources: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:59:17.655     1>Done building target "BeforeBuildGenerateSources" in project "HelloWorld.vcxproj".: (TargetId:23)
+18:59:17.655     1>Target "PreBuildEvent: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+18:59:17.656     1>Done building target "PreBuildEvent" in project "HelloWorld.vcxproj".: (TargetId:24)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+                   Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+18:59:17.656     1>Target "_Xsd: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:59:17.656     1>Done building target "_Xsd" in project "HelloWorld.vcxproj".: (TargetId:25)
+18:59:17.656     1>Target "MakeDirsForMidl: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:14)
+                   Done executing task "Makedir". (TaskId:14)
+18:59:17.657     1>Done building target "MakeDirsForMidl" in project "HelloWorld.vcxproj".: (TargetId:26)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+                   Target "FxCompile" skipped, due to false condition; ('@(FxCompile)' != '') was evaluated as ('' != '').
+18:59:17.657     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Midl" depends on it):
+18:59:17.657     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "HelloWorld.vcxproj".: (TargetId:27)
+18:59:17.657     1>Target "AfterMidl: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Midl" depends on it):
+18:59:17.657     1>Done building target "AfterMidl" in project "HelloWorld.vcxproj".: (TargetId:28)
+18:59:17.657     1>Target "_Midl: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:59:17.657     1>Done building target "_Midl" in project "HelloWorld.vcxproj".: (TargetId:29)
+18:59:17.657     1>Target "AfterBuildGenerateSources: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.BuildSteps.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:59:17.657     1>Done building target "AfterBuildGenerateSources" in project "HelloWorld.vcxproj".: (TargetId:30)
+18:59:17.657     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildGenerateSourcesAction" depends on it):
+18:59:17.657     1>Done building target "AfterBuildGenerateSourcesEvent" in project "HelloWorld.vcxproj".: (TargetId:31)
+18:59:17.657     1>Target "_BuildGenerateSourcesAction: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "BuildGenerateSources" depends on it):
+18:59:17.657     1>Done building target "_BuildGenerateSourcesAction" in project "HelloWorld.vcxproj".: (TargetId:32)
+18:59:17.657     1>Target "BuildGenerateSources: (TargetId:33)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "Build" depends on it):
+18:59:17.657     1>Done building target "BuildGenerateSources" in project "HelloWorld.vcxproj".: (TargetId:33)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+18:59:17.657     1>Target "BuildCompileTraverse: (TargetId:34)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+18:59:17.657     1>Done building target "BuildCompileTraverse" in project "HelloWorld.vcxproj".: (TargetId:34)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+18:59:17.658     1>Target "BeforeClCompile: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_ClCompile" depends on it):
+18:59:17.658     1>Done building target "BeforeClCompile" in project "HelloWorld.vcxproj".: (TargetId:35)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+18:59:17.658     1>Target "ComputeCLInputPDBName: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_ClCompile" depends on it):
+18:59:17.658     1>Done building target "ComputeCLInputPDBName" in project "HelloWorld.vcxproj".: (TargetId:36)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+18:59:17.658     1>Target "ComputeReferenceCLInput: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" skipped, due to false condition; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') was evaluated as ((''!='') and '' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true') was evaluated as (''=='true').
+18:59:17.658     1>Done building target "ComputeReferenceCLInput" in project "HelloWorld.vcxproj".: (TargetId:37)
+18:59:17.658     1>Target "MakeDirsForCl: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:15)
+                     Task Parameter:
+                         Directories=
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug (TaskId:15)
+                   Done executing task "MakeDir". (TaskId:15)
+18:59:17.661     1>Done building target "MakeDirsForCl" in project "HelloWorld.vcxproj".: (TargetId:38)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+18:59:17.661     1>Target "_SelectedFiles: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "SelectClCompile" depends on it):
+18:59:17.661     1>Done building target "_SelectedFiles" in project "HelloWorld.vcxproj".: (TargetId:39)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+18:59:17.661     1>Target "SelectCustomBuild: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "SelectClCompile" depends on it):
+18:59:17.661     1>Done building target "SelectCustomBuild" in project "HelloWorld.vcxproj".: (TargetId:40)
+18:59:17.661     1>Target "SelectClCompile: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ClCompile" depends on it):
+18:59:17.661     1>Done building target "SelectClCompile" in project "HelloWorld.vcxproj".: (TargetId:41)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Main.cpp' != '' and 'false' == 'True').
+18:59:17.661     1>Target "ClCompile: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_ClCompile" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:16)
+                   Done executing task "Delete". (TaskId:16)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '') was evaluated as ('NotUsing' == 'Create' and ''!='true' and '' == '').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:17)
+                     Task Parameter:BuildingInIde=True (TaskId:17)
+                     Task Parameter:
+                         Sources=
+                             Main.cpp
+                                     AcceptableNonZeroExitCodes=
+                                     AdditionalIncludeDirectories=C:\Dev\freeglut\include;C:\Dev\glew-1.11.0\include;
+                                     AssemblerListingLocation=
+                                     AssemblerOutput=NoListing
+                                     BasicRuntimeChecks=EnableFastChecks
+                                     BrowseInformation=false
+                                     BrowseInformationFile=Debug\
+                                     BufferSecurityCheck=true
+                                     CallingConvention=Cdecl
+                                     CompileAs=CompileAsCpp
+                                     DebugInformationFormat=EditAndContinue
+                                     DisableLanguageExtensions=false
+                                     EnableEnhancedInstructionSet=NotSet
+                                     EnableFiberSafeOptimizations=false
+                                     EnablePREfast=false
+                                     ErrorReporting=Prompt
+                                     ExceptionHandling=Sync
+                                     ExpandAttributedSource=false
+                                     FavorSizeOrSpeed=Neither
+                                     FloatingPointModel=Precise
+                                     ForceConformanceInForLoopScope=true
+                                     ForcedIncludeFiles=
+                                     ForcedUsingFiles=
+                                     GenerateXMLDocumentationFiles=false
+                                     IgnoreStandardIncludePath=false
+                                     ImpLibCompiled=
+                                     InlineFunctionExpansion=Default
+                                     IntrinsicFunctions=false
+                                     LibCompiled=
+                                     LinkCompiled=true
+                                     MinimalRebuild=true
+                                     MinimalRebuildFromTracking=true
+                                     ObjectFileName=Debug\
+                                     OmitDefaultLibName=false
+                                     OmitFramePointers=false
+                                     Optimization=Disabled
+                                     PrecompiledHeader=NotUsing
+                                     PrecompiledHeaderFile=
+                                     PrecompiledHeaderOutputFile=
+                                     PreprocessKeepComments=false
+                                     PreprocessorDefinitions=_MBCS;
+                                     PreprocessSuppressLineNumbers=false
+                                     PreprocessToFile=false
+                                     ProgramDataBaseFileName=Debug\vc110.pdb
+                                     RuntimeLibrary=MultiThreadedDebugDll
+                                     SDLCheck=true
+                                     ShowIncludes=false
+                                     SmallerTypeCheck=false
+                                     StructMemberAlignment=Default
+                                     SuppressStartupBanner=true
+                                     TrackerLogDirectory=Debug\
+                                     TreatWarningAsError=false
+                                     TreatWChar_tAsBuiltInType=true
+                                     UndefineAllPreprocessorDefinitions=false
+                                     UseFullPaths=false
+                                     UseUnicodeForAssemblerListing=
+                                     WarningLevel=Level3
+                                     WholeProgramOptimization=false
+                                     WinRTNoStdLib=false
+                                     XMLDocumentationFileName=Debug\ (TaskId:17)
+                     Task Parameter:
+                         AdditionalIncludeDirectories=
+                             C:\Dev\freeglut\include
+                             C:\Dev\glew-1.11.0\include (TaskId:17)
+                     Task Parameter:AssemblerOutput=NoListing (TaskId:17)
+                     Task Parameter:BasicRuntimeChecks=EnableFastChecks (TaskId:17)
+                     Task Parameter:BrowseInformation=False (TaskId:17)
+                     Task Parameter:BrowseInformationFile=Debug\ (TaskId:17)
+                     Task Parameter:BufferSecurityCheck=True (TaskId:17)
+                     Task Parameter:CallingConvention=Cdecl (TaskId:17)
+                     Task Parameter:CompileAs=CompileAsCpp (TaskId:17)
+                     Task Parameter:DebugInformationFormat=EditAndContinue (TaskId:17)
+                     Task Parameter:DisableLanguageExtensions=False (TaskId:17)
+                     Task Parameter:EnableEnhancedInstructionSet=NotSet (TaskId:17)
+                     Task Parameter:EnableFiberSafeOptimizations=False (TaskId:17)
+                     Task Parameter:EnablePREfast=False (TaskId:17)
+                     Task Parameter:ErrorReporting=Prompt (TaskId:17)
+                     Task Parameter:ExceptionHandling=Sync (TaskId:17)
+                     Task Parameter:
+                         ExcludedInputPaths=
+                             C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include
+                             C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\include
+                             C:\Program Files (x86)\Windows Kits\8.0\Include\um
+                             C:\Program Files (x86)\Windows Kits\8.0\Include\shared
+                             C:\Program Files (x86)\Windows Kits\8.0\Include\winrt
+                             C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+                             C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\atlmfc\lib
+                             C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\lib (TaskId:17)
+                     Task Parameter:ExpandAttributedSource=False (TaskId:17)
+                     Task Parameter:FavorSizeOrSpeed=Neither (TaskId:17)
+                     Task Parameter:FloatingPointModel=Precise (TaskId:17)
+                     Task Parameter:ForceConformanceInForLoopScope=True (TaskId:17)
+                     Task Parameter:GenerateXMLDocumentationFiles=False (TaskId:17)
+                     Task Parameter:IgnoreStandardIncludePath=False (TaskId:17)
+                     Task Parameter:InlineFunctionExpansion=Default (TaskId:17)
+                     Task Parameter:IntrinsicFunctions=False (TaskId:17)
+                     Task Parameter:MinimalRebuild=True (TaskId:17)
+                     Task Parameter:ObjectFileName=Debug\ (TaskId:17)
+                     Task Parameter:OmitDefaultLibName=False (TaskId:17)
+                     Task Parameter:OmitFramePointers=False (TaskId:17)
+                     Task Parameter:Optimization=Disabled (TaskId:17)
+                     Task Parameter:PrecompiledHeader=NotUsing (TaskId:17)
+                     Task Parameter:PreprocessKeepComments=False (TaskId:17)
+                     Task Parameter:PreprocessorDefinitions=_MBCS (TaskId:17)
+                     Task Parameter:PreprocessSuppressLineNumbers=False (TaskId:17)
+                     Task Parameter:PreprocessToFile=False (TaskId:17)
+                     Task Parameter:ProgramDataBaseFileName=Debug\vc110.pdb (TaskId:17)
+                     Task Parameter:RuntimeLibrary=MultiThreadedDebugDll (TaskId:17)
+                     Task Parameter:SDLCheck=True (TaskId:17)
+                     Task Parameter:ShowIncludes=False (TaskId:17)
+                     Task Parameter:SmallerTypeCheck=False (TaskId:17)
+                     Task Parameter:StructMemberAlignment=Default (TaskId:17)
+                     Task Parameter:SuppressStartupBanner=True (TaskId:17)
+                     Task Parameter:TreatWarningAsError=False (TaskId:17)
+                     Task Parameter:TreatWChar_tAsBuiltInType=True (TaskId:17)
+                     Task Parameter:UndefineAllPreprocessorDefinitions=False (TaskId:17)
+                     Task Parameter:UseFullPaths=False (TaskId:17)
+                     Task Parameter:WarningLevel=Level3 (TaskId:17)
+                     Task Parameter:WholeProgramOptimization=False (TaskId:17)
+                     Task Parameter:WinRTNoStdLib=False (TaskId:17)
+                     Task Parameter:XMLDocumentationFileName=Debug\ (TaskId:17)
+                     Task Parameter:TrackerLogDirectory=Debug\ (TaskId:17)
+                     Task Parameter:TrackFileAccess=True (TaskId:17)
+                     Task Parameter:MinimalRebuildFromTracking=True (TaskId:17)
+                     Task Parameter:ToolArchitecture=Native32Bit (TaskId:17)
+                     Task Parameter:YieldDuringToolExecution=True (TaskId:17)
+                     Forcing recompile of all source files due to missing PDB "Debug\vc110.pdb". (TaskId:17)
+                     Environment Variables passed to tool: (TaskId:17)
+                       VS_UNICODE_OUTPUT=1288 (TaskId:17)
+                     C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Dev\freeglut\include /I"C:\Dev\glew-1.11.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp (TaskId:17)
+                     Tracking command: (TaskId:17)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug /r C:\USERS\PYROT_000\DOCUMENTS\GITHUB\OPENGL-CPP\HELLOWORLD\HELLOWORLD\MAIN.CPP /b MSBuildConsole_CancelEvent2147eaab74d244c4b2c553e55f6648e4  /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe"  /c /IC:\Dev\freeglut\include /I"C:\Dev\glew-1.11.0\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp (TaskId:17)
+                     Main.cpp (TaskId:17)
+                   Done executing task "CL". (TaskId:17)
+18:59:19.983     1>Done building target "ClCompile" in project "HelloWorld.vcxproj".: (TargetId:42)
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Main.cpp' != '' and 'false' == 'True').
+18:59:19.983     1>Target "AfterClCompile: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_ClCompile" depends on it):
+18:59:19.983     1>Done building target "AfterClCompile" in project "HelloWorld.vcxproj".: (TargetId:43)
+18:59:19.983     1>Target "_ClCompile: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildCompileAction" depends on it):
+18:59:19.983     1>Done building target "_ClCompile" in project "HelloWorld.vcxproj".: (TargetId:44)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+18:59:19.984     1>Target "BeforeResourceCompile: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_ResourceCompile" depends on it):
+18:59:19.984     1>Done building target "BeforeResourceCompile" in project "HelloWorld.vcxproj".: (TargetId:45)
+18:59:19.984     1>Target "MakeDirsForResourceCompile: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:18)
+                     Task Parameter:Directories=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug (TaskId:18)
+                   Done executing task "MakeDir". (TaskId:18)
+18:59:19.984     1>Done building target "MakeDirsForResourceCompile" in project "HelloWorld.vcxproj".: (TargetId:46)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+18:59:19.984     1>Target "AfterResourceCompile: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_ResourceCompile" depends on it):
+18:59:19.984     1>Done building target "AfterResourceCompile" in project "HelloWorld.vcxproj".: (TargetId:47)
+18:59:19.984     1>Target "_ResourceCompile: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildCompileAction" depends on it):
+18:59:19.985     1>Done building target "_ResourceCompile" in project "HelloWorld.vcxproj".: (TargetId:48)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+                   Target "_Lib" skipped, due to false condition; ('$(LibCompiled)' == 'true') was evaluated as ('' == 'true').
+18:59:19.985     1>Target "AfterBuildCompileEvent: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildCompileAction" depends on it):
+18:59:19.985     1>Done building target "AfterBuildCompileEvent" in project "HelloWorld.vcxproj".: (TargetId:49)
+18:59:19.985     1>Target "_BuildCompileAction: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "BuildCompile" depends on it):
+18:59:19.985     1>Done building target "_BuildCompileAction" in project "HelloWorld.vcxproj".: (TargetId:50)
+18:59:19.985     1>Target "BuildCompile: (TargetId:51)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "Build" depends on it):
+18:59:19.985     1>Done building target "BuildCompile" in project "HelloWorld.vcxproj".: (TargetId:51)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+18:59:19.985     1>Target "BuildLinkTraverse: (TargetId:52)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+18:59:19.985     1>Done building target "BuildLinkTraverse" in project "HelloWorld.vcxproj".: (TargetId:52)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+18:59:19.985     1>Target "ComputeLegacyManifestEmbedding: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_BuildLinkAction" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true') was evaluated as ('' == 'true' and '' == 'true').
+18:59:19.986     1>Done building target "ComputeLegacyManifestEmbedding" in project "HelloWorld.vcxproj".: (TargetId:53)
+18:59:19.986     1>Target "BeforeLink: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+18:59:19.986     1>Done building target "BeforeLink" in project "HelloWorld.vcxproj".: (TargetId:54)
+18:59:19.986     1>Target "ComputeRCOutputs: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ComputeRCGeneratedLinkInputs" depends on it):
+18:59:19.986     1>Done building target "ComputeRCOutputs" in project "HelloWorld.vcxproj".: (TargetId:55)
+18:59:19.986     1>Target "ComputeRCGeneratedLinkInputs: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+18:59:19.986     1>Done building target "ComputeRCGeneratedLinkInputs" in project "HelloWorld.vcxproj".: (TargetId:56)
+18:59:19.986     1>Target "ComputeManifestGeneratedLinkerInputs: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+18:59:19.986     1>Done building target "ComputeManifestGeneratedLinkerInputs" in project "HelloWorld.vcxproj".: (TargetId:57)
+18:59:19.986     1>Target "ComputeCustomBuildOutput: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+                   Task "CreateItem" skipped, due to false condition; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') was evaluated as (''!='').
+                   Task "MakeDir" (TaskId:19)
+                   Done executing task "MakeDir". (TaskId:19)
+18:59:19.987     1>Done building target "ComputeCustomBuildOutput" in project "HelloWorld.vcxproj".: (TargetId:58)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+18:59:19.987     1>Target "ComputeCLOutputs: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "ComputeCLGeneratedLinkInputs" depends on it):
+18:59:19.988     1>Done building target "ComputeCLOutputs" in project "HelloWorld.vcxproj".: (TargetId:59)
+18:59:19.988     1>Target "ComputeCLGeneratedLinkInputs: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+18:59:19.988     1>Done building target "ComputeCLGeneratedLinkInputs" in project "HelloWorld.vcxproj".: (TargetId:60)
+18:59:19.988     1>Target "ComputeLinkInputsFromProject: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+18:59:19.988     1>Done building target "ComputeLinkInputsFromProject" in project "HelloWorld.vcxproj".: (TargetId:61)
+                   Target "ComputeReferenceLinkInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+18:59:19.989     1>Target "ComputeManifestInputsTargets: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+18:59:19.989     1>Done building target "ComputeManifestInputsTargets" in project "HelloWorld.vcxproj".: (TargetId:62)
+                   Target "ManifestResourceCompile" skipped, due to false condition; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') was evaluated as ('LINK' == 'LINK' and '' != '').
+                   Target "AssignWinFXEmbeddedResource" skipped, due to false condition; ('@(WinFXEmbeddedResource)' != '') was evaluated as ('' != '').
+18:59:19.989     1>Target "AssignTargetPaths: (TargetId:63)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:20)
+                     Task Parameter:RootFolder=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld (TaskId:20)
+                   Done executing task "AssignTargetPath". (TaskId:20)
+                   Task "AssignTargetPath" (TaskId:21)
+                     Task Parameter:RootFolder=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld (TaskId:21)
+                   Done executing task "AssignTargetPath". (TaskId:21)
+                   Task "AssignTargetPath" (TaskId:22)
+                     Task Parameter:RootFolder=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld (TaskId:22)
+                   Done executing task "AssignTargetPath". (TaskId:22)
+                   Task "AssignTargetPath" (TaskId:23)
+                     Task Parameter:RootFolder=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld (TaskId:23)
+                   Done executing task "AssignTargetPath". (TaskId:23)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+18:59:19.991     1>Done building target "AssignTargetPaths" in project "HelloWorld.vcxproj".: (TargetId:63)
+                   Target "AssignTargetPaths" skipped. Previously built successfully.
+18:59:19.991     1>Target "SplitResourcesByCulture: (TargetId:64)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "PrepareResourceNames" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(ResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithCulture)'!='') was evaluated as (''!='').
+                   Task "Warning" skipped, due to false condition; ('@(NonResxWithNoCulture)'!='') was evaluated as (''!='').
+                   Using "AssignCulture" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignCulture" (TaskId:24)
+                   Done executing task "AssignCulture". (TaskId:24)
+18:59:19.993     1>Done building target "SplitResourcesByCulture" in project "HelloWorld.vcxproj".: (TargetId:64)
+                   Target "CreateManifestResourceNames" skipped, due to false condition; ('@(EmbeddedResource)' != '') was evaluated as ('' != '').
+18:59:19.993     1>Target "CreateCustomManifestResourceNames: (TargetId:65)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "PrepareResourceNames" depends on it):
+18:59:19.993     1>Done building target "CreateCustomManifestResourceNames" in project "HelloWorld.vcxproj".: (TargetId:65)
+18:59:19.993     1>Target "PrepareResourceNames: (TargetId:66)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+18:59:19.993     1>Done building target "PrepareResourceNames" in project "HelloWorld.vcxproj".: (TargetId:66)
+18:59:19.993     1>Target "MakeDirsForLink: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+                   Task "MakeDir" (TaskId:25)
+                     Task Parameter:
+                         Directories=
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug
+                             C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\ (TaskId:25)
+                   Done executing task "MakeDir". (TaskId:25)
+18:59:19.994     1>Done building target "MakeDirsForLink" in project "HelloWorld.vcxproj".: (TargetId:67)
+18:59:19.994     1>Target "DoLinkOutputFilesMatch: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' == '') was evaluated as ('C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe' == '').
+                   Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe' != '' and 'C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe' != 'C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe').
+                   Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') was evaluated as ('C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe' != '' and '.exe' != '.exe').
+                   Task "VCMessage" skipped, due to false condition; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') was evaluated as ('C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe' != '' and 'HelloWorld' != 'HelloWorld').
+18:59:19.995     1>Done building target "DoLinkOutputFilesMatch" in project "HelloWorld.vcxproj".: (TargetId:68)
+18:59:19.995     1>Target "PreLinkEvent: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+18:59:19.996     1>Done building target "PreLinkEvent" in project "HelloWorld.vcxproj".: (TargetId:69)
+18:59:19.996     1>Target "ComputeLinkSwitches: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "Link" depends on it):
+18:59:19.996     1>Done building target "ComputeLinkSwitches" in project "HelloWorld.vcxproj".: (TargetId:70)
+18:59:19.996     1>Target "Link: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppCommon.targets" from project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (target "_Link" depends on it):
+                   Using "Link" task from assembly "Microsoft.Build.CppTasks.Common.v110, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Link" (TaskId:26)
+                     Task Parameter:BuildingInIde=True (TaskId:26)
+                     Task Parameter:
+                         Sources=
+                             Debug\Main.obj
+                                     AcceptableNonZeroExitCodes=
+                                     AdditionalDependencies=glew32.lib;freeglut.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;
+                                     AdditionalLibraryDirectories=C:\Dev\freeglut\lib;C:\Dev\glew-1.11.0\lib;
+                                     AllowIsolation=true
+                                     CLRImageType=Default
+                                     DataExecutionPrevention=true
+                                     DelaySign=
+                                     Driver=NotSet
+                                     EnableUAC=true
+                                     GenerateDebugInformation=true
+                                     GenerateMapFile=false
+                                     IgnoreEmbeddedIDL=false
+                                     ImportLibrary=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.lib
+                                     KeyFile=
+                                     LinkErrorReporting=PromptImmediately
+                                     ManifestEmbed=true
+                                     ManifestFile=
+                                     ManifestInput=;;
+                                     MapExports=false
+                                     MinimalRebuildFromTracking=true
+                                     NoEntryPoint=false
+                                     OutputFile=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe
+                                     PerUserRedirection=false
+                                     Profile=false
+                                     ProfileGuidedDatabase=
+                                     ProgramDatabaseFile=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.pdb
+                                     RandomizedBaseAddress=true
+                                     RegisterOutput=false
+                                     SetChecksum=false
+                                     ShowProgress=NotSet
+                                     SuppressStartupBanner=true
+                                     SwapRunFromCD=false
+                                     SwapRunFromNET=false
+                                     TargetMachine=MachineX86
+                                     TrackerLogDirectory=Debug\
+                                     TurnOffAssemblyGeneration=false
+                                     TypeLibraryResourceID=1
+                                     UACExecutionLevel=AsInvoker
+                                     UACUIAccess=false
+                                     WindowsMetadataFile=
+                                     WindowsMetadataKeyContainer=
+                                     WindowsMetadataLinkDelaySign=
+                                     WindowsMetadataLinkKeyFile=
+                                     WindowsMetadataSignHash= (TaskId:26)
+                     Task Parameter:
+                         AdditionalDependencies=
+                             glew32.lib
+                             freeglut.lib
+                             kernel32.lib
+                             user32.lib
+                             gdi32.lib
+                             winspool.lib
+                             comdlg32.lib
+                             advapi32.lib
+                             shell32.lib
+                             ole32.lib
+                             oleaut32.lib
+                             uuid.lib
+                             odbc32.lib
+                             odbccp32.lib (TaskId:26)
+                     Task Parameter:
+                         AdditionalLibraryDirectories=
+                             C:\Dev\freeglut\lib
+                             C:\Dev\glew-1.11.0\lib (TaskId:26)
+                     Task Parameter:AllowIsolation=True (TaskId:26)
+                     Task Parameter:CLRImageType=Default (TaskId:26)
+                     Task Parameter:DataExecutionPrevention=True (TaskId:26)
+                     Task Parameter:Driver=NotSet (TaskId:26)
+                     Task Parameter:EnableUAC=True (TaskId:26)
+                     Task Parameter:LinkErrorReporting=PromptImmediately (TaskId:26)
+                     Task Parameter:GenerateDebugInformation=True (TaskId:26)
+                     Task Parameter:GenerateManifest=True (TaskId:26)
+                     Task Parameter:GenerateMapFile=False (TaskId:26)
+                     Task Parameter:IgnoreEmbeddedIDL=False (TaskId:26)
+                     Task Parameter:ImportLibrary=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.lib (TaskId:26)
+                     Task Parameter:LinkIncremental=True (TaskId:26)
+                     Task Parameter:ManifestEmbed=True (TaskId:26)
+                     Task Parameter:MapExports=False (TaskId:26)
+                     Task Parameter:OutputFile=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe (TaskId:26)
+                     Task Parameter:Profile=False (TaskId:26)
+                     Task Parameter:ProgramDatabaseFile=C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.pdb (TaskId:26)
+                     Task Parameter:RandomizedBaseAddress=True (TaskId:26)
+                     Task Parameter:NoEntryPoint=False (TaskId:26)
+                     Task Parameter:SetChecksum=False (TaskId:26)
+                     Task Parameter:ShowProgress=NotSet (TaskId:26)
+                     Task Parameter:SuppressStartupBanner=True (TaskId:26)
+                     Task Parameter:SwapRunFromCD=False (TaskId:26)
+                     Task Parameter:SwapRunFromNET=False (TaskId:26)
+                     Task Parameter:TargetMachine=MachineX86 (TaskId:26)
+                     Task Parameter:TurnOffAssemblyGeneration=False (TaskId:26)
+                     Task Parameter:TypeLibraryResourceID=1 (TaskId:26)
+                     Task Parameter:UACExecutionLevel=AsInvoker (TaskId:26)
+                     Task Parameter:UACUIAccess=False (TaskId:26)
+                     Task Parameter:TrackerLogDirectory=Debug\ (TaskId:26)
+                     Task Parameter:TrackFileAccess=True (TaskId:26)
+                     Task Parameter:MinimalRebuildFromTracking=True (TaskId:26)
+                     Task Parameter:ToolArchitecture=Native32Bit (TaskId:26)
+                     Environment Variables passed to tool: (TaskId:26)
+                       VS_UNICODE_OUTPUT=880 (TaskId:26)
+                     C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Dev\freeglut\lib /LIBPATH:"C:\Dev\glew-1.11.0\lib" glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.lib" /MACHINE:X86 Debug\Main.obj (TaskId:26)
+                     Tracking command: (TaskId:26)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools\Tracker.exe /a /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\Debug /r C:\USERS\PYROT_000\DOCUMENTS\GITHUB\OPENGL-CPP\HELLOWORLD\HELLOWORLD\DEBUG\MAIN.OBJ /b MSBuildConsole_CancelEvent5b3d00f84b2d49979058aa900290089f  /c "C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Dev\freeglut\lib /LIBPATH:"C:\Dev\glew-1.11.0\lib" glew32.lib freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\Debug\HelloWorld.lib" /MACHINE:X86 Debug\Main.obj (TaskId:26)
+18:59:20.160     1>LINK : fatal error LNK1104: cannot open file 'glew32.lib'
+                     The command exited with code 1104. (TaskId:26)
+                   Done executing task "Link" -- FAILED. (TaskId:26)
+18:59:20.192     1>Done building target "Link" in project "HelloWorld.vcxproj" -- FAILED.: (TargetId:71)
+18:59:20.193     1>Done Building Project "C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj" (Build target(s)) -- FAILED.
+
+Project Performance Summary:
+     2707 ms  C:\Users\pyrot_000\Documents\GitHub\OpenGL-Cpp\HelloWorld\HelloWorld\HelloWorld.vcxproj   1 calls
+               2707 ms  Build                                      1 calls
+
+Target Performance Summary:
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  BeforeLink                                 1 calls
+        0 ms  CreateCustomManifestResourceNames          1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  ComputeManifestGeneratedLinkerInputs       1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  ComputeManifestInputsTargets               1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  ComputeLinkInputsFromProject               1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  ComputeLinkSwitches                        1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  PrepareResourceNames                       1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ComputeRCGeneratedLinkInputs               1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  _BuildGenerateSourcesAction                1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _BuildCompileAction                        1 calls
+        0 ms  ComputeCLGeneratedLinkInputs               1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  BeforeClCompile                            1 calls
+        1 ms  _PrepareForReferenceResolution             1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  PlatformPrepareForBuild                    1 calls
+        1 ms  MakeDirsForLink                            1 calls
+        1 ms  GetInstalledSDKLocations                   1 calls
+        1 ms  ComputeLegacyManifestEmbedding             1 calls
+        1 ms  DoLinkOutputFilesMatch                     1 calls
+        1 ms  MakeDirsForMidl                            1 calls
+        1 ms  ComputeCustomBuildOutput                   1 calls
+        1 ms  PreBuildEvent                              1 calls
+        1 ms  ResolveAssemblyReferences                  1 calls
+        1 ms  ComputeCLOutputs                           1 calls
+        1 ms  _ResourceCompile                           1 calls
+        1 ms  GetResolvedWinMD                           1 calls
+        1 ms  _SplitProjectReferencesByFileExistence     1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  PreLinkEvent                               1 calls
+        2 ms  SplitResourcesByCulture                    1 calls
+        2 ms  AssignTargetPaths                          1 calls
+        3 ms  MakeDirsForCl                              1 calls
+        9 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+       11 ms  InitializeBuildStatus                      1 calls
+       21 ms  PrepareForBuild                            1 calls
+      118 ms  SetBuildDefaultEnvironmentVariables        1 calls
+      196 ms  Link                                       1 calls
+     2322 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  AssignCulture                              1 calls
+        0 ms  AssignTargetPath                           4 calls
+        1 ms  ReadLinesFromFile                          1 calls
+        1 ms  Message                                    2 calls
+        1 ms  Delete                                     1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        3 ms  Touch                                      1 calls
+        6 ms  WriteLinesToFile                           1 calls
+        8 ms  SetEnv                                     4 calls
+       20 ms  MakeDir                                    7 calls
+      195 ms  Link                                       1 calls
+     2318 ms  CL                                         1 calls
+
+Build FAILED.
+
+Time Elapsed 00:00:02.70
