@@ -20,3 +20,9 @@ Post Condition:
 Side Effects:
  -Different object may be visible
 */
+
+void render();
+
+void update();
+
+bool loadMedia();

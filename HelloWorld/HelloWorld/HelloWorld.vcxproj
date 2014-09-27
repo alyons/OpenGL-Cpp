@@ -78,7 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Global.h" />
-    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="RectangleF.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="Utility.h" />
