@@ -30,6 +30,7 @@ int main(int argc, char* args[])
 		return 1;
 	}
 
+    glutKeyboardFunc(handleKeys);
 	glutDisplayFunc(render);
 	glutTimerFunc(1000 / SCREEN_FPS, runMainLoop, 0);
 
