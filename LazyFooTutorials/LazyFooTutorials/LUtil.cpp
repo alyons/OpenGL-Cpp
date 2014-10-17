@@ -1,7 +1,8 @@
 #include "LUtil.h"
+#include "LTexture.h"
 
-// Viewport mode
-int gViewportMode = VIEWPORT_MODE_FULL;
+//Some Texture
+LTexture gTexture;
 
 bool initGL()
 {
@@ -20,11 +21,50 @@ bool initGL()
 	// Set Clear color
 	glClearColor(0.f, 0.f, 0.f, 1.f); // R, G, B, A
 
+	//Enable Texturing
+	glEnable(GL_TEXTURE_2D);
+
 	// Check for GL Error
 	GLenum glError = glGetError();
 	if (glError != GL_NO_ERROR)
 	{
 		printf("Failed to initialize OpenGL: %s\n", gluErrorString(glError));
+		return false;
+	}
+
+	return true;
+}
+
+bool loadMedia()
+{
+	const int CHECKERBOARD_WIDTH = 128;
+	const int CHECKERBOARD_HEIGHT = 128;
+	const int CHECKERBOARD_PIXEL_COUNT = CHECKERBOARD_HEIGHT * CHECKERBOARD_WIDTH;
+	GLuint checkerBoard[CHECKERBOARD_PIXEL_COUNT];
+
+	for (int i = 0; i < CHECKERBOARD_PIXEL_COUNT; i++)
+	{
+		GLubyte* colors = (GLubyte*)&checkerBoard[i];
+
+		if (i / 128 & 16 ^ i % 128 & 16)
+		{
+			colors[0] = 0xFF;
+			colors[1] = 0xFF;
+			colors[2] = 0xFF;
+			colors[3] = 0xFF;
+		}
+		else
+		{
+			colors[0] = 0xFF;
+			colors[1] = 0x00;
+			colors[2] = 0x00;
+			colors[3] = 0xFF;
+		}
+	}
+
+	if (!gTexture.loadTextureFromPixels32(checkerBoard, CHECKERBOARD_WIDTH, CHECKERBOARD_HEIGHT))
+	{
+		printf("Unable to load texture...\n");
 		return false;
 	}
 
@@ -41,147 +81,11 @@ void render()
 	// Clear color buffer
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	// Reset modelview matrix
-	glLoadIdentity();
+	//Render checkerboard pattern
+	GLfloat x = (SCREEN_WIDTH - gTexture.textureWidth()) / 2.f;
+	GLfloat y = (SCREEN_HEIGHT - gTexture.textureHeight()) / 2.f;
+	gTexture.render(x, y);
 
-	// Move to the center of the screen
-	glTranslatef(SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f, 0.f);
-
-	// Full View
-	if (gViewportMode == VIEWPORT_MODE_FULL)
-	{
-		// Fill the screen
-		glViewport(0.f, 0.f, SCREEN_WIDTH, SCREEN_HEIGHT);
-
-		// Red Quad
-		glBegin( GL_QUADS );
-            glColor3f( 1.f, 0.f, 0.f );
-            glVertex2f( -SCREEN_WIDTH / 2.f, -SCREEN_HEIGHT / 2.f );
-            glVertex2f(  SCREEN_WIDTH / 2.f, -SCREEN_HEIGHT / 2.f );
-            glVertex2f(  SCREEN_WIDTH / 2.f,  SCREEN_HEIGHT / 2.f );
-            glVertex2f( -SCREEN_WIDTH / 2.f,  SCREEN_HEIGHT / 2.f );
-        glEnd();
-	}
-	//View port at center of screen
-    else if( gViewportMode == VIEWPORT_MODE_HALF_CENTER )
-    {
-        //Center viewport
-        glViewport( SCREEN_WIDTH / 4.f, SCREEN_HEIGHT / 4.f, SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f );
-
-        //Green quad
-        glBegin( GL_QUADS );
-            glColor3f( 0.f, 1.f, 0.f );
-            glVertex2f( -SCREEN_WIDTH / 2.f, -SCREEN_HEIGHT / 2.f );
-            glVertex2f(  SCREEN_WIDTH / 2.f, -SCREEN_HEIGHT / 2.f );
-            glVertex2f(  SCREEN_WIDTH / 2.f,  SCREEN_HEIGHT / 2.f );
-            glVertex2f( -SCREEN_WIDTH / 2.f,  SCREEN_HEIGHT / 2.f );
-        glEnd();
-    }
-	//Viewport centered at the top
-    else if( gViewportMode == VIEWPORT_MODE_HALF_TOP )
-    {
-        //Viewport at top
-        glViewport( SCREEN_WIDTH / 4.f, SCREEN_HEIGHT / 2.f, SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f );
-
-        //Blue quad
-        glBegin( GL_QUADS );
-            glColor3f( 0.f, 0.f, 1.f );
-            glVertex2f( -SCREEN_WIDTH / 2.f, -SCREEN_HEIGHT / 2.f );
-            glVertex2f(  SCREEN_WIDTH / 2.f, -SCREEN_HEIGHT / 2.f );
-            glVertex2f(  SCREEN_WIDTH / 2.f,  SCREEN_HEIGHT / 2.f );
-            glVertex2f( -SCREEN_WIDTH / 2.f,  SCREEN_HEIGHT / 2.f );
-        glEnd();
-    }
-	//Four viewports
-    else if( gViewportMode == VIEWPORT_MODE_QUAD )
-    {
-        //Bottom left red quad
-        glViewport( 0.f, 0.f, SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f );
-        glBegin( GL_QUADS );
-            glColor3f( 1.f, 0.f, 0.f );
-            glVertex2f( -SCREEN_WIDTH / 4.f, -SCREEN_HEIGHT / 4.f );
-            glVertex2f(  SCREEN_WIDTH / 4.f, -SCREEN_HEIGHT / 4.f );
-            glVertex2f(  SCREEN_WIDTH / 4.f,  SCREEN_HEIGHT / 4.f );
-            glVertex2f( -SCREEN_WIDTH / 4.f,  SCREEN_HEIGHT / 4.f );
-        glEnd();
-
-        //Bottom right green quad
-        glViewport( SCREEN_WIDTH / 2.f, 0.f, SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f );
-        glBegin( GL_QUADS );
-            glColor3f( 0.f, 1.f, 0.f );
-            glVertex2f( -SCREEN_WIDTH / 4.f, -SCREEN_HEIGHT / 4.f );
-            glVertex2f(  SCREEN_WIDTH / 4.f, -SCREEN_HEIGHT / 4.f );
-            glVertex2f(  SCREEN_WIDTH / 4.f,  SCREEN_HEIGHT / 4.f );
-            glVertex2f( -SCREEN_WIDTH / 4.f,  SCREEN_HEIGHT / 4.f );
-        glEnd();
-
-        //Top left blue quad
-        glViewport( 0.f, SCREEN_HEIGHT / 2.f, SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f );
-        glBegin( GL_QUADS );
-            glColor3f( 0.f, 0.f, 1.f );
-            glVertex2f( -SCREEN_WIDTH / 4.f, -SCREEN_HEIGHT / 4.f );
-            glVertex2f(  SCREEN_WIDTH / 4.f, -SCREEN_HEIGHT / 4.f );
-            glVertex2f(  SCREEN_WIDTH / 4.f,  SCREEN_HEIGHT / 4.f );
-            glVertex2f( -SCREEN_WIDTH / 4.f,  SCREEN_HEIGHT / 4.f );
-        glEnd();
-
-        //Top right yellow quad
-        glViewport( SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f, SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f );
-        glBegin( GL_QUADS );
-            glColor3f( 1.f, 1.f, 0.f );
-            glVertex2f( -SCREEN_WIDTH / 4.f, -SCREEN_HEIGHT / 4.f );
-            glVertex2f(  SCREEN_WIDTH / 4.f, -SCREEN_HEIGHT / 4.f );
-            glVertex2f(  SCREEN_WIDTH / 4.f,  SCREEN_HEIGHT / 4.f );
-            glVertex2f( -SCREEN_WIDTH / 4.f,  SCREEN_HEIGHT / 4.f );
-        glEnd();
-    }
-	//Viewport with radar subview port
-    else if( gViewportMode == VIEWPORT_MODE_RADAR )
-    {
-        //Full size quad
-        glViewport( 0.f, 0.f, SCREEN_WIDTH, SCREEN_HEIGHT );
-        glBegin( GL_QUADS );
-            glColor3f( 1.f, 1.f, 1.f );
-            glVertex2f( -SCREEN_WIDTH / 8.f, -SCREEN_HEIGHT / 8.f );
-            glVertex2f(  SCREEN_WIDTH / 8.f, -SCREEN_HEIGHT / 8.f );
-            glVertex2f(  SCREEN_WIDTH / 8.f,  SCREEN_HEIGHT / 8.f );
-            glVertex2f( -SCREEN_WIDTH / 8.f,  SCREEN_HEIGHT / 8.f );
-            glColor3f( 0.f, 0.f, 0.f );
-            glVertex2f( -SCREEN_WIDTH / 16.f, -SCREEN_HEIGHT / 16.f );
-            glVertex2f(  SCREEN_WIDTH / 16.f, -SCREEN_HEIGHT / 16.f );
-            glVertex2f(  SCREEN_WIDTH / 16.f,  SCREEN_HEIGHT / 16.f );
-            glVertex2f( -SCREEN_WIDTH / 16.f,  SCREEN_HEIGHT / 16.f );
-        glEnd();
-
-        //Radar quad
-        glViewport( SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f, SCREEN_WIDTH / 2.f, SCREEN_HEIGHT / 2.f );
-        glBegin( GL_QUADS );
-            glColor3f( 1.f, 1.f, 1.f );
-            glVertex2f( -SCREEN_WIDTH / 8.f, -SCREEN_HEIGHT / 8.f );
-            glVertex2f(  SCREEN_WIDTH / 8.f, -SCREEN_HEIGHT / 8.f );
-            glVertex2f(  SCREEN_WIDTH / 8.f,  SCREEN_HEIGHT / 8.f );
-            glVertex2f( -SCREEN_WIDTH / 8.f,  SCREEN_HEIGHT / 8.f );
-            glColor3f( 0.f, 0.f, 0.f );
-            glVertex2f( -SCREEN_WIDTH / 16.f, -SCREEN_HEIGHT / 16.f );
-            glVertex2f(  SCREEN_WIDTH / 16.f, -SCREEN_HEIGHT / 16.f );
-            glVertex2f(  SCREEN_WIDTH / 16.f,  SCREEN_HEIGHT / 16.f );
-            glVertex2f( -SCREEN_WIDTH / 16.f,  SCREEN_HEIGHT / 16.f );
-        glEnd();
-    }
-
+	// Update screen
 	glutSwapBuffers();
-}
-
-void handleKeys( unsigned char key, int x, int y )
-{
-    //If the user presses q
-    if( key == 'q' )
-    {
-        //Cycle through viewport modes
-        gViewportMode++;
-        if( gViewportMode > VIEWPORT_MODE_RADAR )
-        {
-            gViewportMode = VIEWPORT_MODE_FULL;
-        }
-    }
 }

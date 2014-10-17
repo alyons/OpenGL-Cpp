@@ -21,12 +21,18 @@
     <ClInclude Include="LUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LTexture.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
