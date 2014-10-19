@@ -39,8 +39,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Dev\freeglut\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Dev\freeglut\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Dev\ResIL-1.8.2-win32\include;C:\Dev\freeglut\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Dev\ResIL-1.8.2-win32\x64-libcmt;C:\Dev\freeglut\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>C:\Dev\freeglut\include;$(IncludePath)</IncludePath>
@@ -53,7 +53,7 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>OpenGL32.lib;freeglut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>OpenGL32.lib;freeglut.lib;"C:\Dev\glew-1.11.0\lib\Release\Win32\glew32.lib";"C:\Dev\ResIL-1.8.2-win32\x86-libcmt\ResIL.lib";"C:\Dev\ResIL-1.8.2-win32\x86-libcmt\ILU.lib";"C:\Dev\ResIL-1.8.2-win32\x86-libcmt\ILUT.lib";%(AdditionalDependencies)</AdditionalDependencies>
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>

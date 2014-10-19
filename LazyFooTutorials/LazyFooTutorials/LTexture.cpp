@@ -1,4 +1,5 @@
 #include "LTexture.h"
+#include <il/il.h>
 
 LTexture::LTexture()
 {
@@ -47,6 +48,35 @@ bool LTexture::loadTextureFromPixels32(GLuint* pixels, GLuint width, GLuint heig
 	}
 
 	return true;
+}
+
+bool LTexture::loadTextureFromFile(std::string path) {
+	bool textureLoaded = false;
+
+	ILuint imgID = 0;
+	ilGenImages(1, &imgID);
+	ilBindImage(imgID);
+
+	ILboolean success = ilLoadImage(path.c_str());
+
+	if (success == IL_TRUE)
+	{
+		success = ilConvertImage(IL_RGBA, IL_UNSIGNED_BYTE);
+
+		if (success == IL_TRUE)
+		{
+			textureLoaded = loadTextureFromPixels32((GLuint*)ilGetData(), (GLuint)ilGetInteger(IL_IMAGE_WIDTH), (GLuint)ilGetInteger(IL_IMAGE_HEIGHT));
+		}
+
+		ilDeleteImages(1, &imgID);
+	}
+
+	if (!textureLoaded)
+	{
+		printf("Failed to load image: %s\n", path.c_str());
+	}
+
+	return textureLoaded;
 }
 
 void LTexture::freeTexture()

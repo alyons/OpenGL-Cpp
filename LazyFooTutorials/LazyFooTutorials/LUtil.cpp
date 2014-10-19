@@ -1,5 +1,7 @@
 #include "LUtil.h"
 #include "LTexture.h"
+#include <il/il.h>
+#include <il/ilu.h>
 
 //Some Texture
 LTexture gTexture;
@@ -32,39 +34,24 @@ bool initGL()
 		return false;
 	}
 
+	ilInit();
+	ilClearColor(255,255,255,000);
+	ILenum ilError = ilGetError();
+
+	if (ilError != IL_NO_ERROR)
+	{
+		printf("Failed to initialize ResIL: %s\n", iluErrorString(ilError));
+		return false;
+	}
+
 	return true;
 }
 
 bool loadMedia()
 {
-	const int CHECKERBOARD_WIDTH = 128;
-	const int CHECKERBOARD_HEIGHT = 128;
-	const int CHECKERBOARD_PIXEL_COUNT = CHECKERBOARD_HEIGHT * CHECKERBOARD_WIDTH;
-	GLuint checkerBoard[CHECKERBOARD_PIXEL_COUNT];
-
-	for (int i = 0; i < CHECKERBOARD_PIXEL_COUNT; i++)
+	if (!gTexture.loadTextureFromFile("LazyFooTutorials/texture.png"))
 	{
-		GLubyte* colors = (GLubyte*)&checkerBoard[i];
-
-		if (i / 128 & 16 ^ i % 128 & 16)
-		{
-			colors[0] = 0xFF;
-			colors[1] = 0xFF;
-			colors[2] = 0xFF;
-			colors[3] = 0xFF;
-		}
-		else
-		{
-			colors[0] = 0xFF;
-			colors[1] = 0x00;
-			colors[2] = 0x00;
-			colors[3] = 0xFF;
-		}
-	}
-
-	if (!gTexture.loadTextureFromPixels32(checkerBoard, CHECKERBOARD_WIDTH, CHECKERBOARD_HEIGHT))
-	{
-		printf("Unable to load texture...\n");
+		printf("Unable to load texture from file...\n");
 		return false;
 	}
 
