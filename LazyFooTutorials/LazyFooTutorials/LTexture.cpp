@@ -1,5 +1,6 @@
 #include "LTexture.h"
 #include <il/il.h>
+#include <il/ilu.h>
 
 LTexture::LTexture()
 {
@@ -58,6 +59,7 @@ bool LTexture::loadTextureFromFile(std::string path) {
 	ilBindImage(imgID);
 
 	ILboolean success = ilLoadImage(path.c_str());
+	ILenum error = ilGetError();
 
 	if (success == IL_TRUE)
 	{
@@ -69,6 +71,10 @@ bool LTexture::loadTextureFromFile(std::string path) {
 		}
 
 		ilDeleteImages(1, &imgID);
+	}
+	else
+	{
+
 	}
 
 	if (!textureLoaded)
