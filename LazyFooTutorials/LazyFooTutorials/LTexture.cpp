@@ -74,7 +74,7 @@ bool LTexture::loadTextureFromFile(std::string path) {
 	}
 	else
 	{
-
+		printf("Error loading image %d: %s\n", error, "Something...");
 	}
 
 	if (!textureLoaded)

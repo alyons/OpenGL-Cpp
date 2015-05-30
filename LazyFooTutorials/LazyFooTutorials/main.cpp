@@ -1,4 +1,6 @@
 #include "LUtil.h"
+#include <iostream>
+#include <fstream>
 
 void runMainLoop(int val);
 /*
@@ -29,6 +31,12 @@ int main(int argc, char* args[])
 		printf("Failed to initialize graphics library!\n");
 		return 1;
 	}
+
+	std::ofstream outfile ("test.txt");
+
+	outfile << "Testing file output!" << std::endl;
+
+	outfile.close();
 
 	if (!loadMedia())
 	{

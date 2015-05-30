@@ -49,7 +49,7 @@ bool initGL()
 
 bool loadMedia()
 {
-	if (!gTexture.loadTextureFromFile("LazyFooTutorials/texture.png"))
+	if (!gTexture.loadTextureFromFile("texture.png"))
 	{
 		printf("Unable to load texture from file...\n");
 		return false;
